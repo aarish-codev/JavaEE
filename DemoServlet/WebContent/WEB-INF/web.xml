@@ -10,13 +10,43 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-    <description></description>
-    <display-name>Demo1</display-name>
-    <servlet-name>Demo1</servlet-name>
-    <servlet-class>org.aarish.march.Demo1</servlet-class>
+    <description>My first Servlet Program</description>
+    <display-name>FirstServlet</display-name>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.aarish.demo.FirstServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Demo1</servlet-name>
-    <url-pattern>/Demo1</url-pattern>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetParameterDemo</display-name>
+    <servlet-name>GetParameterDemo</servlet-name>
+    <servlet-class>com.aarish.demo.GetParameterDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetParameterDemo</servlet-name>
+    <url-pattern>/GetParamDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PostParamterDemo</display-name>
+    <servlet-name>PostParamterDemo</servlet-name>
+    <servlet-class>com.aarish.demo.PostParamterDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostParamterDemo</servlet-name>
+    <url-pattern>/PostParamDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MultipleParameter</display-name>
+    <servlet-name>MultipleParameter</servlet-name>
+    <servlet-class>com.aarish.demo.MultipleParameter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MultipleParameter</servlet-name>
+    <url-pattern>/MultParam</url-pattern>
   </servlet-mapping>
 </web-app>
