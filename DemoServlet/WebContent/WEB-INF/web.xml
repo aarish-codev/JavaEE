@@ -49,4 +49,38 @@
     <servlet-name>MultipleParameter</servlet-name>
     <url-pattern>/MultParam</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SessionDemo</display-name>
+    <servlet-name>SessionDemo</servlet-name>
+    <servlet-class>com.aarish.demo.SessionDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemo</servlet-name>
+    <url-pattern>/SessionDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContextParameterDemo</display-name>
+    <servlet-name>ContextParameterDemo</servlet-name>
+    <servlet-class>com.aarish.demo.ContextParameterDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContextParameterDemo</servlet-name>
+    <url-pattern>/ContextParam</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>InitParameterDemo</display-name>
+    <servlet-name>InitParameterDemo</servlet-name>
+    <servlet-class>com.aarish.demo.InitParameterDemo</servlet-class>
+    	<init-param>
+    		<param-name>defaultName</param-name>
+    		<param-value>John Doe</param-value> 
+    	</init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitParameterDemo</servlet-name>
+    <url-pattern>/InitParamDemo</url-pattern>
+  </servlet-mapping>
 </web-app>
