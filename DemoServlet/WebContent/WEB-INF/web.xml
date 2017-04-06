@@ -11,13 +11,13 @@
   </welcome-file-list>
   <servlet>
     <description>My first Servlet Program</description>
-    <display-name>FirstServlet</display-name>
-    <servlet-name>FirstServlet</servlet-name>
-    <servlet-class>com.aarish.demo.FirstServlet</servlet-class>
+    <display-name>ServletDemo</display-name>
+    <servlet-name>ServletDemo</servlet-name>
+    <servlet-class>com.aarish.demo.ServletDemo</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FirstServlet</servlet-name>
-    <url-pattern>/FirstServlet</url-pattern>
+    <servlet-name>ServletDemo</servlet-name>
+    <url-pattern>/ServletDemo</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -74,13 +74,63 @@
     <display-name>InitParameterDemo</display-name>
     <servlet-name>InitParameterDemo</servlet-name>
     <servlet-class>com.aarish.demo.InitParameterDemo</servlet-class>
-    	<init-param>
-    		<param-name>defaultName</param-name>
-    		<param-value>John Doe</param-value> 
-    	</init-param>
+    <init-param>
+      <param-name>defaultName</param-name>
+      <param-value>John Doe</param-value>
+    </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>InitParameterDemo</servlet-name>
     <url-pattern>/InitParamDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>VisitCounterDemo</display-name>
+    <servlet-name>VisitCounterDemo</servlet-name>
+    <servlet-class>com.aarish.demo.VisitCounterDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VisitCounterDemo</servlet-name>
+    <url-pattern>/VisitCounter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RD_FirstServlet</display-name>
+    <servlet-name>RD_FirstServlet</servlet-name>
+    <servlet-class>com.aarish.RequestDispatcherPrograms.RD_FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RD_FirstServlet</servlet-name>
+    <url-pattern>/RD_FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RD_SecondServlet</display-name>
+    <servlet-name>RD_SecondServlet</servlet-name>
+    <servlet-class>com.aarish.RequestDispatcherPrograms.RD_SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RD_SecondServlet</servlet-name>
+    <url-pattern>/RD_SecondServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SD_FirstServlet</display-name>
+    <servlet-name>SD_FirstServlet</servlet-name>
+    <servlet-class>com.aarish.SendRedirectPrograms.SD_FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SD_FirstServlet</servlet-name>
+    <url-pattern>/SD_FirstServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SD_SecondServlet</display-name>
+    <servlet-name>SD_SecondServlet</servlet-name>
+    <servlet-class>com.aarish.SendRedirectPrograms.SD_SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SD_SecondServlet</servlet-name>
+    <url-pattern>/SD_SecondServlet</url-pattern>
   </servlet-mapping>
 </web-app>
